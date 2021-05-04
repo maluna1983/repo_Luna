@@ -1,0 +1,249 @@
+body{
+    background-color: rgb(255, 241, 38);
+}
+
+div{
+    
+
+    header{
+        font-family: 'Zen Dots', cursive;
+
+
+        p{
+            display: flex;
+            justify-content: center;
+            font-family: 'Zen Dots', cursive;
+
+        }
+        
+                    
+        H1{
+            background-color: blue;
+            display: flex;
+            color: red;
+            font-size: 500%;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+    }
+
+}
+
+.listamenu{
+
+        ul{
+        justify-content: space-evenly;
+        list-style: none;
+        font-size:0;
+        
+        li{ 
+            justify-content:space-evenly;
+            margin: 0px;
+            background-color: rgba(84, 88, 88, 0.418);
+            display: inline-block;
+            width: 15%;
+            position:relative;
+            font-size: 20px;
+            font-family: 'Zen Dots', cursive;
+            font-weight: bolder;
+
+
+            }
+
+        }
+    }
+
+
+.title{
+        display: block;
+        color: rgb(13, 104, 5);
+        background-color: rgb(255, 123, 0);
+        height: 200%;
+        font-size: 500%;
+        text-align: center;
+        font-family: 'Zen Dots', cursive;
+}
+
+.title__parr{
+    display: grid;
+    background-color: rgba(224, 57, 15, 0.884);
+    color: white;
+    font-size: 15px;
+    justify-content: right;
+    font-family: 'Zen Dots', cursive;
+}
+.leng{
+    
+
+    &__idiom{
+        font-family: 20px;
+        font-weight: bold;
+    }
+    &__item{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+
+    }
+    
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Zen Dots', cursive;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 20% 25% 25% 30%;
+    grid-template-rows: 25vh 9vh 25vh 25vh 25vh;
+    justify-content: space-evenly;
+    border-radius: black;
+    
+    &__mult{
+        background-color: rgb(204, 167, 0);
+        grid-row-start: 1;
+        grid-row-end: 6;
+        text-align: center;
+        font-family: 'Zen Dots', cursive;
+        border: 1px solid black;
+
+        &--acl{
+            background-color:white;
+            font-family: 'New Tegomin', serif;
+        }
+
+    }
+    
+    &__chat{
+        font-family: 'Zen Dots', cursive;
+        background-color: white;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        text-align: center;
+        border: 1px solid black;
+
+        &--acl{
+            background-color: rgb(204, 167, 0);
+            font-family: 'New Tegomin', serif;
+        }
+    }
+    &__game{
+        font-family: 'Zen Dots', cursive;
+        background-color: rgb(204, 167, 0);
+        grid-row-start: 1;
+        grid-row-end: 6;
+        text-align: center;
+        border: 1px solid black;
+
+        &--acl{
+            background-color: white;
+            font-family: 'New Tegomin', serif;
+        }
+    }
+    &__noti{
+        font-family: 'Zen Dots', cursive;
+        background-color: white;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        text-align: center;
+        border: 1px solid black;
+
+        &--acl{
+            background-color: rgb(204, 167, 0);
+            font-family: 'New Tegomin', serif;
+        }
+    }
+    
+}
+.concoment{
+    font-family: 'New Tegomin', serif;
+}
+
+.chats{
+    
+    &__salas{
+        font-size: 200%;
+        font-family: 'Zen Dots', cursive;
+        color: black;
+
+        &--game{
+            font-family: 'New Tegomin', serif;
+        }
+        &--meme{
+            font-family: 'New Tegomin', serif;
+        }
+        &--amor{
+            font-family: 'New Tegomin', serif;
+        }
+        &--polit{
+            font-family: 'New Tegomin', serif;
+        }
+      
+            }
+    }
+     
+.formulario{
+    &__item{
+        background-color: rgb(226, 147, 206);
+        text-decoration: underline;
+
+        &--masc{
+            display: grid;
+            background-color: blue;
+            font-family: cursive;
+        }
+        &--feme{
+            display: grid;
+            background-color: rgb(235, 72, 221);
+            font-family: cursive;
+        }
+    }
+}
+.mltmd{
+    font-family: 'New Tegomin', serif;
+
+    &__part1{
+        background: rgb(63,94,251);
+        text-decoration: underline;
+
+        &--atencion{
+            font-weight: bold;
+            background-color: none;
+            
+        }
+    }
+}
+.gamer{
+
+    &__prstcn{
+            background: rgb(70,161,157);
+            text-decoration: underline;
+        &--nota{
+                font-size: 25px;
+                text-align: center;
+                font-family: cursive;
+                font-weight: bold;
+        }
+    }
+}
+.staffer{
+    background-color: grey;
+}
+.creditos{
+    display: grid;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.cast{
+    font-size: 20px;
+    font-family: cursive;
+    
+    &__list{
+        word-spacing: 5px;
+    }
+}
